@@ -1,0 +1,21 @@
+{
+    "name": "yii2world/yii2-social-circle",
+    "description": "SocialCircle is a jQuery plugin that allows the user to reveal and hide radial social share buttons with a toggle button. Also can be used to create a radial popup menu for your website navigation.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","socialCircle","jQuery socialCircle","jQuery socialCircle Plugin","Creating Radial Social Share Buttons with jQuery","social buttons","buttons group","multiple buttons"," one to many buttons"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Understanding The Internet",
+            "email": "understandinginternet@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "yii2world\\socialcircle\\": ""
+        }
+    }
+}
