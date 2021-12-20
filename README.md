@@ -27,5 +27,25 @@ Usage
 
 Once the extension is installed, simply use it in your code by  :
 
-```php
-<?= \yii2world\socialcircle\AutoloadExample::widget(); ?>```
+```
+
+<?php
+
+use yii\helpers\Html;
+
+echo \yii2world\socialcircle\SocialCircle::widget([
+    'items' => [
+        Html::a('<i class="fa fa-google-plus"></i>', 'https://google.com', [
+            'target' => '_blank'
+        ]),
+        Html::a('<i class="fa fa-github"></i>', 'https://github.com', [
+            'target' => '_blank'
+        ]),
+        Html::a('<i class="fa fa-facebook"></i>', 'https://facebook.com', [
+            'target' => '_blank'
+        ])
+    ]
+]);
+?>
+```
+
