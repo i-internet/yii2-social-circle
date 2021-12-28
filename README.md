@@ -16,7 +16,7 @@ php composer.phar require --prefer-dist i-internet/yii2-social-circle "*"
 or add
 
 ```
-"yii2world/yii2-social-circle": "*"
+"i-internet/yii2-social-circle": "*"
 ```
 
 to the require section of your `composer.json` file.
